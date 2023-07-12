@@ -450,7 +450,7 @@ nav ul li a{
     }
 
 
-    section-11 .location .img-location {
+    .section-11 .location .img-location {
         margin-left: 200px;
         margin-top: 30px;
         width: 1120px;
@@ -459,9 +459,7 @@ nav ul li a{
         overflow: hidden;
         border-radius: 10px;
         border-width: 10px;
-        border-style: initial;
-        border-color: initial;
-        border-image: initial;
+    
     }
 
     .section-12 {
@@ -479,64 +477,188 @@ nav ul li a{
         gap: 10rem;
     }
 
-  .section-12 .footer .part-1 p {
-    font-family: Poppins;
+    .part-1 h1{
+               
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+
+     .part-1 h1::after{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: 30px;
+        left: 2px;
+      }
+    
+
+
+   .part-1 p {
+    font-family: 'Poppins';
     width: 363px;
     height: 255px;
     letter-spacing: 0em;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 
-.section-12 .footer .part-1 .about-img {
-    width: 237px;
+.part-1 .about-img {
+    position: absolute;
+    width: 250px;
     height: 58px;
-    top: 6015px;
-    left: 160px;
+    top: 500px;
+    left: 50px;
 }
 
 
+  .part-2 h1{
+    
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+  }
 
 
-
-
- .section-12 .footer .part-2 h1::after{
+  .part-2 h1::after{
     content: '';
     position: absolute;
     width: 50px;
     height: 2px;
     background-color: #ffffff;
-    margin-top: 40px;
-    left: 570px;
+    margin-top: 30px;
+    left: 2px;
   }
 
-  .section-12 .footer .part-2 .contact-info{
+
+ .part-2 .location  {
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+  }
+  .part-2 .location p{
+
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+    
+
+
+  }
+
+
+
+ .part-2 .contact-info{
     color: #ffffff;
     list-style: none;
     margin-bottom: 16px;
-    font-family: 'Roboto';
-    font-size: 12px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 19px;
-   align-items: center;
-   display: flex;
-   margin-top: 20px;
+    letter-spacing: 0em;
+    text-align: center;   
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
   }
 
 
-  .section-12 .footer .part-1 
+  .part-3 h1{
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 
 
-  .section-12 .footer .part-1 
+ .part-3 h1::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    left:2px;
+  }
+
+
+   .part-3 .social p{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 1rem;
+        justify-content: space-between;
+      
+     }
+    
+  .part-3 .social  .social-icons .fa-brands{
+    margin-top: 40px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 51, 153, 1);
+    background: #EBE9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15%;
+    overflow: hidden;
+    
+        
+     }
+
+
+  .part-3 .download .p{
+    margin-top: 30px;
+  }
 
 
 
-  .section-12 .footer .part-1 
+  .section-12 .copyright{
+    font-family: 'Poppins';
+    font-size: 22px;
+    
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    top: 6000px;
+    
+    
+
+  }
 
 
-  .section-12 .footer .part-1 
+
+    
+    
+ 
 
 
-  .section-12 .footer .part-1 
-
-
-  .section-12 .footer .part-1 
