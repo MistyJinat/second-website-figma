@@ -19,7 +19,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -50,13 +49,13 @@ nav ul li a{
     /* =======section-3 start========= */
     .section-3{
         width: 1400px;
-        height: 560px;
+        height:500px;
         
     }
 
 
     .section-3 h1{
-        margin-top: 50px;
+        
         color:  rgb(0,56, 153, 1);
         font-family: 'Poppins';
         font-size: 35px;
@@ -93,7 +92,7 @@ nav ul li a{
 
 
     .section-4{
-        top:1350px;
+    
         width: 1400px;
         height: 400px;
         background: rgba(0, 51, 153, 0.1);
@@ -105,7 +104,7 @@ nav ul li a{
         gap: 3rem;
         position: absolute;
         left: 150px;
-        top: 1400px;
+        top: 1250px;
     }
        
 
@@ -148,6 +147,7 @@ nav ul li a{
 
       }
 
+/*===============our sector=======*/
 
       .section-5{
         width: 1400px;
@@ -155,9 +155,9 @@ nav ul li a{
       }
 
       .section-5 h1{
-
-        margin-top: 40px;
-        font-family: Poppins;
+        top: 1600px;
+        margin-top: 30px;
+        font-family:'Poppins';
         font-size: 35px;
         font-weight: 600;
         line-height: 53px;
@@ -169,47 +169,38 @@ nav ul li a{
       .section-5 .our-sector .img-box {
         display: flex;
         position: absolute;
-        top: 1820px;
+        top: 1730px;
         left: 120px;
         gap: 1rem;
     }
-    .section-5 h2 {
-        font-family: Inter;
+
+
+   .section-5 .gradient{
+           
+
+    width:170px ;
+    height: 62px;
+    background: linear-gradient(rgba(0, 51, 153, 0.5), rgba(0, 51, 153, 0.5));
+    
+          
+
+   }
+
+    .section-5 .gradient h2 {
+        font-family: 'Inter';
         font-size: 20px;
         font-weight: 600;
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
+        color: #ffffff;
+    
     }
 
-    .section-5 h2 {
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
 
- 
 
-.section-5 h2 {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
-.section-5 h2 {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-}
+    /*======== .featured-project=========*/
 
 .section-6 {
     width: 1400px;
@@ -217,9 +208,10 @@ nav ul li a{
     background: rgb(230, 235, 245);
 }
 
-  .section-6 h1 {
+   .featured-project h1 {
     color: rgb(0, 51, 153);
-    font-family: Poppins;
+    font-family: 'Poppins';
+    margin-top: 0px;
     font-size: 35px;
     font-weight: 600;
     line-height: 53px;
@@ -227,14 +219,14 @@ nav ul li a{
     text-align: center;
 }
 
-.section-6 .featured-project .img-box2 {
+.featured-project .img-box2 {
     display: flex;
     margin-top: 50px;
     margin-left: 150px;
     gap: 1rem;
 }
 
-.section-6 .img-box2 h3 {
+ .img-box2 h3 {
     color: rgb(0, 0, 0);
     font-family: Inter;
     font-size: 16px;
@@ -244,7 +236,7 @@ nav ul li a{
     text-align: left;
 }
 
-.section-6 .img-box2 h2 {
+ .img-box2 h2 {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -256,7 +248,7 @@ nav ul li a{
 }
 
 
-.section-6 .img-box2 p {
+.img-box2 p {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -267,7 +259,7 @@ nav ul li a{
     margin-top: 10px;
 }
 
-.section-6 .img-box2 h3 {
+ .img-box2 h3 {
     color: rgb(0, 0, 0);
     font-family: Inter;
     font-size: 16px;
@@ -277,7 +269,7 @@ nav ul li a{
     text-align: left;
 }
 
-.section-6 .img-box2 h2 {
+ .img-box2 h2 {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -288,7 +280,7 @@ nav ul li a{
     margin-top: 15px;
 }
 
-  .section-6 .img-box2 p {
+  .img-box2 p {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -307,7 +299,7 @@ nav ul li a{
     background: rgb(31, 31, 32);
 }
 
-     .section-7 .global-sec h1 {
+.global-sec h1 {
         color: rgb(255, 255, 255);
         font-family: Poppins;
         font-size: 35px;
@@ -318,37 +310,36 @@ nav ul li a{
         top: 2700px;
     }
         
-
-    .section-7 .global-sec .img {
+ .global-sec .img {
         margin-left: 150px;
     }
 
-    .section-8 {
+.section-8 {
         width: 1400px;
         height: 540px;
         background: rgb(230, 235, 245);
     }
 
 
-    .section-8 .our-clients h1 {
+  .section-8 h1 {
         color: rgb(0, 51, 153);
-        font-family: Poppins;
+        font-family: 'Poppins';
         font-size: 35px;
         font-weight: 600;
         line-height: 53px;
-        letter-spacing: 0em;
         text-align: center;
+        margin-top:10px;
     }
 
 
-    .section-8 .our-clients .img-box {
+    .section-8  .img-box {
         display: flex;
         margin-top: 50px;
         margin-left: 150px;
         gap: 1rem;
     }
 
-    .section-8 .our-clients .img-box img {
+    .section-8  .img-box img {
         width: 270px;
         height: 270px;
         background-color: rgb(255, 255, 255);
@@ -369,7 +360,7 @@ nav ul li a{
     }
 
 
-    .section-9 .local-project h1 {
+    .section-9  h1 {
         color: rgb(0, 51, 153);
         font-family: Poppins;
         font-size: 35px;
@@ -381,10 +372,16 @@ nav ul li a{
 
 
 
-    .section-9 .local-project .img-local {
+    .section-9  .img-local {
         margin-left: 160px;
         margin-top: 30px;
     }
+
+
+
+
+
+/*===========news & insights=========*/
    
     .section-10 {
         width: 1400px;
@@ -392,17 +389,19 @@ nav ul li a{
         background: rgb(230, 235, 245);
     }
 
-    .section-10 h1 {
+     .section-10 h1 {
         color: rgb(0, 51, 153);
-        font-family: Poppins;
+        font-family: 'Poppins';
         font-size: 35px;
         font-weight: 600;
         line-height: 53px;
         letter-spacing: 0em;
         text-align: center;
+        margin-top: 0px;
+        
     }
 
-      .section-10 .news-insights .img-box2 {
+      .section-10  .img-box2 {
         display: flex;
         margin-top: 50px;
         margin-left: 150px;
@@ -422,7 +421,7 @@ nav ul li a{
 
 
 .section-10 .img-box2 p {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 17px;
     font-weight: 600;
     line-height: 20px;
@@ -432,6 +431,19 @@ nav ul li a{
     margin-top: 10px;
 }
 
+.img-box2 button{
+    font-family: 'Inter';
+    margin-top:15px ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(0, 51, 153, 1);
+    border: #EBE9E9;
+    
+}
+
 
        .section-11 {
         width: 1400px;
@@ -439,7 +451,7 @@ nav ul li a{
         background: rgb(255, 255, 255);
     }
 
-    .section-11 .location h1 {
+    .section-11 h1 {
         color: rgb(0, 51, 153);
         font-family: Poppins;
         font-size: 35px;
@@ -450,7 +462,7 @@ nav ul li a{
     }
 
 
-    .section-11 .location .img-location {
+    .section-11 .img-location {
         margin-left: 200px;
         margin-top: 30px;
         width: 1120px;
@@ -462,19 +474,26 @@ nav ul li a{
     
     }
 
+
+    /*=======footer section=======*/
+
     .section-12 {
         width: 1400px;
-        height: 590px;
+        height:700px;
         position: absolute;
         top: 5848px;
-        background: rgb(0, 51, 153);
+        background:linear-gradient(rgba(0, 51, 153),rgba(0, 51, 153)30%,
+        rgba(0, 51, 153)20%,rgb(82, 96, 224));
     }
+
     .section-12 .footer {
-        display: flex;
+        display:grid;
+        grid-template-columns:repeat(3,1fr) ;
+        gap: 1rem;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 30px;
         color: rgb(255, 255, 255);
-        gap: 10rem;
+        
     }
 
     .part-1 h1{
@@ -505,8 +524,11 @@ nav ul li a{
     font-family: 'Poppins';
     width: 363px;
     height: 255px;
+    size: 16px;
+    line-height: 19px;
     letter-spacing: 0em;
     margin-top: 60px;
+    text-align: justify;
 }
 
 
@@ -586,15 +608,14 @@ nav ul li a{
     margin-top: 30px;
   }
 
-
   .part-3 h1{
     position: absolute;
     font-family: 'Bebas Neue';
     font-size: 24px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: left;
+    
   }
 
 
@@ -609,16 +630,21 @@ nav ul li a{
   }
 
 
-   .part-3 .social p{
+
+   .part-3 .first{
         display: grid;
-        grid-template-columns:repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: 1rem;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: .5em;
         justify-content: space-between;
-      
-     }
+        margin-left: 30px;
     
-  .part-3 .social  .social-icons .fa-brands{
+    
+     }
+
+    
+.part-3  .fa-brands{
+
     margin-top: 40px;
     padding: 10px;
     width: 50px;
@@ -630,30 +656,26 @@ nav ul li a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15%;
     overflow: hidden;
+    margin-right: 15px;
     
         
      }
 
 
-  .part-3 .download .p{
-    margin-top: 30px;
-  }
 
 
-
-  .section-12 .copyright{
+  .copyright{
     font-family: 'Poppins';
     font-size: 22px;
-    
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
-    top: 6000px;
-    
-    
+    margin-top: 230px;
+  
 
   }
+
 
 
 

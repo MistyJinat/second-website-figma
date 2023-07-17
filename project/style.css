@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,600;1,700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300;400;500&family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+
+
+body{
+    font-family: 'Poppins','Inter',sans-serif;
+    width: 1400px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;   
+
+}
+
+
+nav ul li a{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+    padding:30px 15px ;
+    
+    }
+    nav ul li a:hover{
+      
+        transition: 0.4s;
+        color: rgb(0,56, 160, 1);
+        
+    }
+
+
+    
+
+    .section-3 h1{
+        margin-top: 50px;
+        color:  rgb(0,56, 153, 1);
+        font-family: 'Poppins';
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .section-3 .image-container{
+        display: flex;
+        gap: 1rem;
+        margin-left: 150px;
+
+    }
+
+     .section-3 h2{
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(0, 51, 153, 1);
+        
+        
+    }
+
+
+    .tbl-container{
+      width: 1200px;
+      height:3000px ;
+
+
+  }
+  
+ table,td,th {
+  border: 2px  solid green;
+  border-collapse: collapse;
+
+  
+  box-shadow:(0px 0px 5px rgba(0,0,0,0.3));
+}
+
+table,td{
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  vertical-align: top;
+
+  
+
+}
+
+
+
+
+
+
+
+/*==========footer section========*/
+
+    .section-5 {
+        width: 1400px;
+        height: 590px;
+        position: absolute;
+        top: 5848px;
+        background: rgb(0, 51, 153);
+    }
+    .section-5 .footer {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        gap: 10rem;
+    }
+
+    .part-1 h1{
+               
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+
+     .part-1 h1::after{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: 30px;
+        left: 2px;
+      }
+    
+
+
+   .part-1 p {
+    font-family: 'Poppins';
+    width: 363px;
+    height: 255px;
+    letter-spacing: 0em;
+    margin-top: 60px;
+}
+
+
+.part-1 .about-img {
+    position: absolute;
+    width: 250px;
+    height: 58px;
+    top: 500px;
+    left: 50px;
+}
+
+
+  .part-2 h1{
+    
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+  }
+
+
+  .part-2 h1::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    left: 2px;
+  }
+
+
+ .part-2 .location  {
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+  }
+  .part-2 .location p{
+
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+    
+
+
+  }
+
+
+
+ .part-2 .contact-info{
+    color: #ffffff;
+    list-style: none;
+    margin-bottom: 16px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;   
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+  }
+
+
+  .part-3 h1{
+    position: absolute;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+
+ .part-3 h1::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    left:2px;
+  }
+
+
+   .part-3 .social p{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 1rem;
+        justify-content: space-between;
+      
+     }
+    
+  .part-3 .social  .social-icons .fa-brands{
+    margin-top: 40px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 51, 153, 1);
+    background: #EBE9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15%;
+    overflow: hidden;
+    
+        
+     }
+
+
+  .part-3 .download .p{
+    margin-top: 30px;
+  }
+
+
+
+  .section-5 .copyright{
+    font-family: 'Poppins';
+    font-size: 22px;
+    
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    top: 6000px;
+    
+    
+
+  }
