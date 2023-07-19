@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,600;1,700&family=Roboto:wght@500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,600;1,700&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300;400;500&family=Poppins:ital,wght@0,400;0,900;1,200;1,300;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+*/
 
 
 body{
@@ -11,43 +12,52 @@ body{
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins',sans-serif;
+    
 
 }
 
 
 
-nav img {
+nav .logo{
    position: relative;
-   left: 200px;
+   left: 100px;
+   
+
+
+
 }
 
    nav{
+    position: relative;
     display: flex;
-    width: 1400px;
-    padding:1% 3%;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
+    
 
    }
 
 
-.nav-links{
+  nav ul{
+    position: relative;
+    display: flex;
+    gap: 1rem;
    flex: 1;
-   text-align:right;
-   left: 100px;
+   text-align:center;
+   left: 200px;
+   
 
 }
 
-.nav-links ul li{
-     
-     list-style: none;
-     display: inline-block;
-     padding: 0px 1px;
-     position: relative;
+
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    top: 10px;
 }
 
-.nav-links ul li a{
+  nav ul li a{
 
     font-family: 'Poppins';
     font-weight: 600;
@@ -60,28 +70,150 @@ nav img {
     }
 
 
-    nav ul li a:hover{
+nav ul li a:hover{
       
         transition: 0.4s;
         color: rgb(0,56, 160, 1);
         
     }
 
+    .search-bar{
+        position: relative;
+        
+        float: right;
+        
+    }
+
+ input[type=text]{
+        position: relative;
+        background:transparent ;
+        width: 100px;
+        height: 30px;
+        border:none;
+        outline: none;
+        padding: 0 25px;
+        border-radius: 21px 0 0 21px;
+        border: 1px solid rgba(0, 51, 153, 1);
+     }
+
+        
+  
+    .search-bar button{
+        position: relative;
+        float: right;
+        margin-right: 30px;
+        border-radius: 0 21px 21px 0;
+        width: 34px;
+        height: 32px;
+        border:none;
+        outline: none;
+        background: transparent;
+        border:1px solid rgba(0, 51, 153, 1);
+        
+    }
+    
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 /*================section 2 ====================================================*/
 
     .section-2{
         min-height: 600px;
         width: 1400px;
-        background-image: linear-gradient(rgba(0, 51, 153, 0.5),rgba(0, 51, 153, 0.5)),
+        background-image: linear-gradient(rgba(0, 51, 153, 0.5)50%,rgba(0, 51, 153, 0.5)30%),
         url(./images/main.png);
         background-position: center;
         background-size: cover;
-        position: relative;
-        
-    
-        
+        position: relative;    
 
     }
+
+
+
+    .text-box h1{
+        position: relative;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: Poppins;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        top: 200px;
+        left: 150px;
+        
+    }
+
+    .text-box p{
+        position: relative;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        top: 190px;
+        left: 150px;
+        width: 575px;
+        height: 55px;
+        
+        
+        
+    }
+
+    .text-box button{
+        position: relative;
+        background: transparent;
+        padding: 7px;
+        left: 150px;
+        top: 230px; 
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width:242px ;
+        height: 55px;
+        
+    }
+
+    .text-box i{
+         margin-left: 50px;
+      
+     
+
+         
+    }
+
+ 
+
+
+
+
+
+
+
+
 
     /* =======section-3 start========= */
     .section-3{
