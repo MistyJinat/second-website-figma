@@ -143,33 +143,75 @@ nav ul li a{
     vertical-align: top;
 }
 
+div .next-nums{
+
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  left: 930px;
+  top: 50px;
+  
+}
+
+ div .next-nums .fa-solid{
+    position: relative;
+     color: rgba(0, 51, 153, 1);
+     width: 15px;
+     height: 30px;
+}
+
+.next-nums li{
+  position: relative;
+  list-style: none;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  
+  
+
+}
+     
+.next-nums li :hover{
+  position: relative;   
+  transition: 0.4s;
+}
 
 
        
     /*=======footer section=======*/
+               
 
-    .section-12 {
+
+    .section-5 {
+      position: relative;
       width: 1400px;
-      height:700px;
+      height:610px;
       position: absolute;
-      top: 3948px;
-      background:linear-gradient(rgba(0, 51, 153),rgba(0, 51, 153)30%,
-      rgba(0, 51, 153)20%,rgb(82, 96, 224));
+      top: 3950px;
+      border-bottom:20px solid rgba(242, 182, 67, 1);
+      background:linear-gradient(120deg,rgba(0, 51, 153, 0.5)50%,rgba(255, 255, 255, 0.1)50%),
+      rgba(0, 51, 153, 1);
+   
   }
 
-  .section-12 .footer {
+  .section-5 .footer {
+      position: relative;
       display:grid;
       grid-template-columns:repeat(3,1fr) ;
       gap: 1rem;
-      margin-top: 50px;
-      margin-left: 30px;
+
+      left: 100px;
       color: rgb(255, 255, 255);
       
   }
 
   .part-1 h1{
              
-  position: absolute;
+  position: relative;
+  top: 50px;
   font-family: 'Bebas Neue';
   font-size: 24px;
   font-weight: 400;
@@ -200,6 +242,7 @@ nav ul li a{
   letter-spacing: 0em;
   margin-top: 60px;
   text-align: justify;
+  margin-top:90px;
 }
 
 
@@ -207,14 +250,15 @@ nav ul li a{
   position: absolute;
   width: 250px;
   height: 58px;
-  top: 500px;
-  left: 50px;
+  top: 420px;
+  
 }
 
 
 .part-2 h1{
   
-  position: absolute;
+  position: relative;
+  top: 50px;
   font-family: 'Bebas Neue';
   font-size: 24px;
   font-weight: 400;
@@ -238,7 +282,7 @@ nav ul li a{
 
 
 .part-2 .location  {
-  margin-top: 60px;
+  margin-top: 90px;
   font-family: 'Poppins';
   font-size: 22px;
   font-weight: 600;
@@ -280,7 +324,8 @@ nav ul li a{
 }
 
 .part-3 h1{
-  position: absolute;
+  position: relative;
+  top: 50px;
   font-family: 'Bebas Neue';
   font-size: 24px;
   font-weight: 400;
@@ -301,22 +346,24 @@ nav ul li a{
 }
 
 
-
- .part-3 .first{
+ .part-3 .social-icons{
+      
+      width: 260px;
+      height: 153px;
       display: grid;
-      grid-template-columns:repeat(2,1fr);
+      grid-template-columns:repeat(3,1fr);
       grid-template-rows: repeat(2,1fr);
-      gap: .5em;
-      justify-content: space-between;
-      margin-left: 30px;
-  
-  
+      gap: 1rem;
+      margin-top: 40px;
+
+
    }
 
   
-.part-3  .fa-brands{
+  .part-3  .social-icons .fa-brands{
 
-  margin-top: 40px;
+  position: relative;
+  top: 50px;
   padding: 10px;
   width: 50px;
   height: 50px;
@@ -327,22 +374,41 @@ nav ul li a{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15%;
   overflow: hidden;
-  margin-right: 15px;
   
       
    }
 
 
+   .part-3 .second{
 
+      margin-top: 100px;
+   }
+
+   .second li{
+      position: relative;
+      top: 80px;
+      font-family: 'Poppins';
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      list-style:none;
+      text-decoration-line: underline;
+   
+    }
+
+  
 
 .copyright{
+  position: relative;
   font-family: 'Poppins';
   font-size: 22px;
   line-height: 19px;
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  margin-top: 100px;
+  top: 140px;
 
 
 }

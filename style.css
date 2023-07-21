@@ -207,14 +207,6 @@ nav ul li a:hover{
          
     }
 
- 
-
-
-
-
-
-
-
 
 
     /* =======section-3 start========= */
@@ -255,8 +247,35 @@ nav ul li a:hover{
         text-align: center;
         color: rgba(0, 51, 153, 1);
         
-        
     }
+
+
+
+
+
+     .section-3 button{
+        position: relative;
+        font-family: 'Inter';
+        top: 20px;
+        left: 1100px;
+        font-size: 18px;
+        font-weight: 400;
+        width: 136px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 51, 153, 1);
+        border: none;
+        text-decoration-line: underline;
+        background-color: transparent;
+     }    
+
+
+            
+    button i{
+        margin-left: 10px;    
+   }
+
+
   /*======== section-3 end========== */
 
 
@@ -429,14 +448,65 @@ nav ul li a:hover{
 
 
 
+
+
     /*======== .featured-project=========*/
 
 .section-6 {
     position: relative;
-    top: 200px;
+    top: 50px;
     width: 1400px;
     height: 590px;
     background: rgb(230, 235, 245);
+}
+
+   .latest-update{
+    position: relative;
+    display: flex;
+    align-items:center ;
+
+    margin: auto;
+    gap: 2rem;
+    border:1px solid rgba(0, 51, 153, 1);
+    border-radius: 8px;
+    width: 970px;
+    height: 70px;
+    
+    top: 30px;
+    background-color: #ffffff;
+    
+  
+}
+
+    .latest-update p1 {
+    position: relative;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    height: 70px;
+    align-items: center; 
+   background:rgba(0, 51, 153, 1);
+    border:1px solid rgba(0, 51, 153, 1);
+    border-radius:  8px  0 0 8px ;  
+}
+
+.latest-update p2{
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 772px;
+    
+
+
+
 }
 
    .featured-project h1 {
@@ -451,6 +521,7 @@ nav ul li a:hover{
 }
 
 .featured-project .img-box2 {
+    height: 270px;
     display: flex;
     margin-top: 50px;
     margin-left: 150px;
@@ -459,7 +530,7 @@ nav ul li a:hover{
 
  .img-box2 h3 {
     color: rgb(0, 0, 0);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -468,7 +539,7 @@ nav ul li a:hover{
 }
 
  .img-box2 h2 {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -480,7 +551,7 @@ nav ul li a:hover{
 
 
 .img-box2 p {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -490,37 +561,8 @@ nav ul li a:hover{
     margin-top: 10px;
 }
 
- .img-box2 h3 {
-    color: rgb(0, 0, 0);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: -0.02em;
-    text-align: left;
-}
 
- .img-box2 h2 {
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: rgb(0, 51, 153);
-    margin-top: 15px;
-}
 
-  .img-box2 p {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-}
 
 
 .section-7 {
@@ -688,7 +730,7 @@ nav ul li a:hover{
     
 }
 
-
+    /*=================Location of BETS HQ=============================*/
        .section-11 {
         position: relative;
         top:30px ;
@@ -729,12 +771,13 @@ nav ul li a:hover{
     .section-12 {
         position: relative;
         width: 1400px;
-        height:700px;
+        height:610px;
         position: absolute;
         top: 5890px;
-        
-        background:linear-gradient(rgba(0, 51, 153),rgba(0, 51, 153)30%,
-        rgba(0, 51, 153)20%,rgb(82, 96, 224));
+        border-bottom:20px solid rgba(242, 182, 67, 1);
+        background:linear-gradient(120deg,rgba(0, 51, 153, 0.5)50%,rgba(255, 255, 255, 0.1)50%),
+        rgba(0, 51, 153, 1);
+     
     }
 
     .section-12 .footer {
@@ -780,9 +823,9 @@ nav ul li a:hover{
     size: 16px;
     line-height: 19px;
     letter-spacing: 0em;
-    margin-top: 60px;
+    margin-top: 90px;
     text-align: justify;
-    margin-top:90px;
+    
 }
 
 
@@ -948,7 +991,7 @@ nav ul li a:hover{
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
-    top: 230px;
+    top: 140px;
   
 
   }
