@@ -284,7 +284,7 @@ nav ul li a:hover{
     .section-4{
         position: relative;
         top: 100px;
-        
+        width: 1440px;
         height: 420px;
         background: rgba(0, 51, 153, 0.1);
 
@@ -344,7 +344,7 @@ nav ul li a:hover{
       .section-5{
         position: relative;
         top: 180px;
-        width: 1400px;
+        width: 1440px;
         height: 500px;
       }
 
@@ -455,7 +455,7 @@ nav ul li a:hover{
 .section-6 {
     position: relative;
     top: 50px;
-    width: 1400px;
+    width: 1440px;
     height: 590px;
     background: rgb(230, 235, 245);
 }
@@ -568,7 +568,7 @@ nav ul li a:hover{
 .section-7 {
     position: relative;
     top: 150px;
-    width: 1400px;
+    width: 1440px;
     height: 770px;
     background: rgb(31, 31, 32);
 }
@@ -589,12 +589,12 @@ nav ul li a:hover{
     }
 
 
-
+/*=============our client==========================*/
 
 .section-8 {
         position: relative;
         top: 140px;
-        width: 1400px;
+        width: 1440px;
         height: 540px;
         background: rgb(230, 235, 245);
     }
@@ -613,15 +613,16 @@ nav ul li a:hover{
 
 
     .section-8  .img-box {
+        position: relative;
         display: flex;
         margin-top: 50px;
-        margin-left: 150px;
+        left: 50px;
         gap: 1rem;
     }
 
     .section-8  .img-box img {
-        width: 270px;
-        height: 270px;
+        width: 260px;
+        height: 260px;
         background-color: rgb(255, 255, 255);
         box-shadow: rgb(0, 51, 153) 0px 5px 5px;
         border-radius: 5%;
@@ -635,7 +636,7 @@ nav ul li a:hover{
     .section-9 {
         position: relative;
         top: 100px;
-        width: 1400px;
+        width: 1440px;
         height: 735px;
         background: rgb(232, 233, 237);
     }
@@ -668,7 +669,7 @@ nav ul li a:hover{
     .section-10 {
         position: relative;
         
-        width: 1400px;
+        width: 1440px;
         height: 560px;
         background: rgb(230, 235, 245);
     }
@@ -734,7 +735,7 @@ nav ul li a:hover{
        .section-11 {
         position: relative;
         top:30px ;
-        width: 1400px;
+        width: 1440px;
         height: 735px;
         background: rgb(255, 255, 255);
     }
@@ -754,7 +755,7 @@ nav ul li a:hover{
 
     .section-11 .img-location {
         position: relative;
-        margin-left: 200px;
+        left: 160px;
         margin-top: 50px;
         width: 1120px;
         height: 353px;
@@ -785,7 +786,7 @@ nav ul li a:hover{
         display:grid;
         grid-template-columns:repeat(3,1fr) ;
         gap: 1rem;
-
+        width: 1440px;
         left: 100px;
         color: rgb(255, 255, 255);
         
